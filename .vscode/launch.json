@@ -1,0 +1,25 @@
+{
+	// 使用 IntelliSense 了解相关属性。
+	// 悬停以查看现有属性的描述。
+	// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "cn.rectcircle.App",
+            "projectName": "antlr4test"
+        },
+        {
+            "type": "antlr-debug",
+            "request": "launch",
+            "name": "Debug Current Grammar",
+            "grammar": "src/main/java/cn/rectcircle/antlr4test/Expr.g4",
+            "startRule": "prog",
+            "input": "src/main/java/cn/rectcircle/antlr4test/input.txt",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}
